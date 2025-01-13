@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:cadetblue
+  }
+  
+p{
+margin: 0;
+padding: 0;
+}
+
+  button {
+border:none;
+outline: none;
+background: transparent;
+    cursor: pointer;
+  }
+
+  .style-posts, .style-details-posts{
+    margin:20px ;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.style-posts p{
+    border-radius: 10px;
+    border:1px solid white;
+    padding: 15px;
+    background-color: #333;
+    color:white;
+    width: 80%;
+    cursor: pointer;
+    margin: 10px;
+}
+.style-details-posts div{
+    border-radius: 10px;
+    border:1px solid white;
+    padding: 15px;
+    background-color: #333;
+    color:white;
+    width: 80%; 
+    margin: 10px;
+}
